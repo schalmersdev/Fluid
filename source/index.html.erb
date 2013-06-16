@@ -1,0 +1,33 @@
+<% content_for :head do %>
+<title>Place page title here</title>
+<% end %>
+
+<% content_for :foot do %><% end %>
+
+<div class="row">
+  <div class="small-12 large-12 columns">
+
+    <h2>Contents - page templates</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Template</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% sitemap.resources.each do |page| %>
+          <% if page.url =~ /\.html/ %>
+              <tr>
+                <td><a href="<%= "#{page.url}" %>"><%= "#{page.url}" %></a></td>
+                <td>In progress</td>
+              </tr>
+          <% end %>
+        <% end %>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+

@@ -1,0 +1,23 @@
+/* ==========================================================================
+   BUTTON GROUPS
+   ========================================================================== */
+/* 
+
+FURTHER INFO
+------------
+http://foundation.zurb.com/docs/components/button-groups.html
+
+CREATE YOUR OWN
+---------------
+.your-class-name { 
+	.your-class-name { @include button-group-container; }
+}
+
+OR TO EXTEND THE CLASS USE:
+---------------------------
+
+.button-group{
+	&.your-class-name{...}
+}
+
+*/

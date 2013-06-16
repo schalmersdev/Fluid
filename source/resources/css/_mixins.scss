@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+   
+// SPRITES ARRAY
+$SPRITES_ARRAY: information;
+
+// SPRITE MAP
+$SPRITE_MAP: sprite-map("sprites/*.png", $spacing: 15px );
+
+// RETINA SPRITE MAP
+$RETINA_SPRITE_MAP: sprite-map("retina-sprites/*.png", $spacing: 15px );
+
+
+@mixin retinarize( $sprite, $array:$SPRITES_ARRAY, $normalMap:$SPRITE_MAP, $retinaMap:$RETINA_SPRITE_MAP ) {
+  $maxW : 0;
+  @each $s in $array { 
+    $w : image-width( sprite-file($retinaMap, $s) );
+    @if $maxW < $w { $maxW : $w; } 
+  }
+
+  background  : sprite( $normalMap, $sprite );
+  width       : image-width(  sprite-file( $normalMap, $sprite ) );
+  height      : image-height( sprite-file( $normalMap, $sprite ) );
+  display     : block;
+
+  @media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {
+    background          : sprite($retinaMap, $sprite);
+    background-position : floor( nth( sprite-position($retinaMap, $sprite), 1 ) / 2  ) floor( nth( sprite-position($retinaMap, $sprite), 2 ) / 2 );
+    width               : image-width(  sprite-file( $normalMap, $sprite ) );
+    height              : image-height( sprite-file( $normalMap, $sprite ) );
+    background-size     : $maxW / 2;
+    display             : block;
+  }
+}
+
+$desktop-breakpoint: 768px;
+$media-queries: true !default;
+$media-query-free-breakpoint: 768px;
+
+@mixin respond-to($min-width, $max-width: false) {
+  @if $media-queries {
+   @media screen and (min-width: $min-width) {
+     @if $max-width {
+       @media (max-width: $max-width) {
+         @content
+       }
+       } @else {
+         @content;
+       }
+     }
+   }
+   @else if $min-width <= $media-query-free-breakpoint and (not $max-width or $max-width and $max-width >= $media-query-free-breakpoint) {
+     @content;
+   }
+ }

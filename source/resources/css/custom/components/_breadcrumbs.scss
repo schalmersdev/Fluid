@@ -1,0 +1,27 @@
+/* ==========================================================================
+   BREADCRUMBS
+   ========================================================================== */
+/* 
+
+FURTHER INFO
+------------
+http://foundation.zurb.com/docs/components/breadcrumbs.html
+
+CREATE YOUR OWN
+---------------
+
+.your-class-name {
+  @include crumb-container;
+
+  li { @include crumbs; }
+}
+
+OR TO EXTEND THE CLASS USE:
+---------------------------
+
+.breadcrumbs{
+	&.your-class-name{...}
+}
+
+*/
+

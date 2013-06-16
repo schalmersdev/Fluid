@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7 ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9 ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10 ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+		<!--[if lt IE 9]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<![endif]-->
+		<%= yield_content :head %>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		
+		<!--[if !IE]> -->
+		<%= stylesheet_link_tag "site.css" %> 
+		<!-- <![endif]-->
+
+		<!--[if gt IE 8]>
+		<%= stylesheet_link_tag "site.css" %>
+		<![endif]-->
+
+		<!--[if lt IE 9]>
+			<![if gt IE 6]>
+				<%= stylesheet_link_tag "IE8.css" %>
+			<![endif]>
+			<![if lte IE 6]>
+				<link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection">
+			<![endif]>
+		<![endif]-->
+
+		<script src="/resources/js/libs/custom.modernizr.js"></script>
+		
+
+	</head>
+	<body>
+
+        <%= partial "components/global/header" %>
+
+        <%= yield %>
+
+        <%= partial "components/global/footer" %>
+
+        <%= javascript_include_tag 'main.js' %>
+       
+	</body>
+	</html>

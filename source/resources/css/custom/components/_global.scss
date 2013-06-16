@@ -1,0 +1,7 @@
+// Fix for textarea height issue in IE7/8
+textarea {
+	height: auto;
+	@include min-height(50px);
+}
+
+// Add custom styles below

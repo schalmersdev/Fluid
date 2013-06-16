@@ -1,0 +1,50 @@
+<% content_for :head do %>
+  <title>Place page title here</title>
+<% end %>
+
+<% content_for :foot do %><% end %>
+
+<% content_for :leftColumn do %>
+
+<%= partial "components/nav/sideNav" %>
+
+<% end %>
+
+  <%= partial "components/nav/breadcrumbs" %>
+
+  <h1><%= lorem.words 2 %></h1>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <img src="<%= lorem.image('500x300') %>" alt="lorem" />
+      <h3><%= lorem.words 5 %></h3>
+      <p><%= lorem.paragraph %></p>
+    </div>
+  </div>
+
+  <hr />
+  
+  <div class="row">
+    <% 2.times do |num| %>
+    <div class="small-6 columns">
+      <img src="<%= lorem.image('250x150') %>" alt="lorem" />
+      <h4><%= lorem.words 3 %></h4>
+      <p><%= lorem.sentences 2 %></p>
+    </div>
+    <% end %>
+  </div>
+
+  <%= partial "components/common/centeredPagination" %>
+
+  <% content_for :rightColumn do %>
+
+  <h5>Categories</h5>
+  <%= partial "components/nav/sideNav" %>
+
+  <div class="panel">
+    <h5>Featured</h5>
+    <p>We love to make great digital work.</p>
+    <a href="http://www.reactive.com">Read More &rarr;</a>
+  </div>
+
+  <% end %>

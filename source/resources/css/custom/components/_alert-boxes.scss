@@ -1,0 +1,32 @@
+/* ==========================================================================
+   ALERT BOXES
+   ========================================================================== */
+/* 
+
+FURTHER INFO
+------------
+http://foundation.zurb.com/docs/components/alert-boxes.html
+
+To create your own version use the SASS mixin
+
+CREATE YOUR OWN
+---------------
+
+Using the default styles
+------------------------
+.your-class-name { @include alert; }
+
+Using the available options
+---------------------------
+.your-class-name { @include alert(#ff6c3c); }
+
+Using the base
+--------------
+.your-class-name { @include alert-base; }
+
+OR TO EXTEND THE CLASS USE:
+---------------------------
+
+.alert-box{...}
+
+*/

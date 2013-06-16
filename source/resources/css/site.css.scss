@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Main style sheet
+   ========================================================================== */
+
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// Compass
+@import
+  "compass",
+  "compass/css3";
+
+// Normalize
+@import "normalize";
+
+//Fonts
+@import "fonts";
+
+//Mixins
+@import "mixins";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "libs/foundation/variables";
+@import "variables";
+
+// Foundation Components - You shouldnt have to change these as all changes should be done via the 'Overrides' section below
+
+// *always required
+@import "libs/foundation/components/global"; 
+@import "libs/foundation/components/grid";
+@import "libs/foundation/components/visibility";
+@import "libs/foundation/components/type";
+@import "libs/foundation/components/buttons";
+
+// *optional - uncomment the items you require
+@import "libs/foundation/components/block-grid";
+@import "libs/foundation/components/forms"; // *requires components/buttons
+@import "libs/foundation/components/custom-forms"; // *requires components/buttons, components/forms
+@import "libs/foundation/components/button-groups"; // *requires components/buttons
+@import "libs/foundation/components/dropdown-buttons"; // *requires components/buttons
+@import "libs/foundation/components/split-buttons"; // *requires components/buttons
+@import "libs/foundation/components/flex-video";
+@import "libs/foundation/components/section";
+@import "libs/foundation/components/top-bar";  // *requires components/grid
+@import "libs/foundation/components/orbit"; 
+@import "libs/foundation/components/reveal";
+@import "libs/foundation/components/joyride";
+@import "libs/foundation/components/clearing";
+@import "libs/foundation/components/alert-boxes";
+@import "libs/foundation/components/breadcrumbs";
+@import "libs/foundation/components/keystrokes";
+@import "libs/foundation/components/labels";
+@import "libs/foundation/components/inline-lists";
+@import "libs/foundation/components/pagination";
+@import "libs/foundation/components/panels";
+@import "libs/foundation/components/pricing-tables";
+@import "libs/foundation/components/progress-bars";
+@import "libs/foundation/components/side-nav";
+@import "libs/foundation/components/sub-nav";
+@import "libs/foundation/components/switch";
+@import "libs/foundation/components/magellan";
+@import "libs/foundation/components/tables";
+@import "libs/foundation/components/thumbs";
+@import "libs/foundation/components/tooltips";
+@import "libs/foundation/components/dropdown";
+
+// Custom component and foundation overrides
+@import "custom/**/*"; // *always required
+
+// Main
+@import "main";

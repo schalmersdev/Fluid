@@ -1,0 +1,23 @@
+/* ==========================================================================
+   BUTTONS
+   ========================================================================== */
+/* 
+
+FURTHER INFO
+------------
+http://foundation.zurb.com/docs/components/buttons.html
+
+CREATE YOUR OWN
+---------------
+.your-class-name {
+   @include button($padding, $bg, $radius, $full-width, $disabled, $is-input);
+}
+
+OR TO EXTEND THE CLASS USE:
+---------------------------
+
+.button{
+	&.your-class-name{...}
+}
+
+*/

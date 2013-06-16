@@ -1,0 +1,32 @@
+/* ==========================================================================
+   CLEARING
+   ========================================================================== */
+/* 
+
+FURTHER INFO
+------------
+http://foundation.zurb.com/docs/components/clearing.html
+
+There are no mixins available for this component using 
+the vairable.scss you should be able to make it look 
+as you wish otherwise you can use the classes below as a guide
+
+EXTEND THE CLASS USE:
+---------------------------
+.clearing-assembled{
+	.clearing-container{
+		.carousel{
+			.clearing-thumbs{
+				li{...}
+			}
+		}
+		.visible-img{
+			.clearing-caption{...}
+		}
+		.clearing-close{...}
+		.clearing-main-next{...}
+		.clearing-main-prev{...}
+	}
+}
+
+*/

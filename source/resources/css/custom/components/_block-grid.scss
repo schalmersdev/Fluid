@@ -1,0 +1,25 @@
+/* ==========================================================================
+   BLOCKGRID
+   ========================================================================== */
+/* 
+
+FURTHER INFO
+------------
+http://foundation.zurb.com/docs/components/block-grid.html
+
+CREATE YOUR OWN
+---------------
+.your-class-name { 
+	@include block-grid($per-row, $spacing, $base-styles); 
+}
+
+OR TO EXTEND THE CLASS USE:
+---------------------------
+
+Key: X = number of items per row
+
+ul.small-block-grid-X{...}
+
+ul.large-block-grid-X{...}
+
+*/

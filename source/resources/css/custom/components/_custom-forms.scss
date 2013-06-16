@@ -1,0 +1,25 @@
+/* ==========================================================================
+   CUSTOM FORMS
+   ========================================================================== */
+/* 
+
+FURTHER INFO
+------------
+http://foundation.zurb.com/docs/components/clearing.html
+
+There are no mixins available for this component using 
+the vairable.scss you should be able to make it look 
+as you wish otherwise you can use the classes below as a guide
+	
+EXTEND THE CLASS USE:
+---------------------------
+.custom{
+	&.your-class-name{...}
+}
+
+*/
+
+// Fix for lack of inline block support in IE7/8
+form.custom .custom, .form.custom .custom {
+  @include inline-block;
+}

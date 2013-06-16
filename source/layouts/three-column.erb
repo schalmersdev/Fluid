@@ -1,0 +1,42 @@
+<% wrap_layout :masterlayout do %>
+
+<div id="main" role="main">
+  <!-- Main Page Content and Sidebar -->
+
+  <div class="row">
+
+    <!-- Left hand column -->
+    <div class="small-12 large-3 columns">
+
+      <%= yield_content :leftColumn %>
+
+    </div>
+    <!-- End left hand columnd -->
+
+    <!-- Main Blog Content -->
+    <div class="small-12 large-6 columns">
+
+	    <%= yield %>
+
+	  </div>
+
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+
+    <aside class="small-12 large-3 columns">
+
+    	<%= yield_content :rightColumn %>
+
+    </aside>
+
+    <!-- End Sidebar -->
+
+
+  </div>
+
+  <!-- End Main Content and Sidebar -->
+
+</div>
+
+<% end %>

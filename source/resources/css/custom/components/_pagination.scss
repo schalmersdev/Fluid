@@ -1,0 +1,6 @@
+// Fix for lack of inline block support in IE7/8
+.pagination-centered ul > li{
+	@include inline-block;
+}
+
+// Add custom styles below

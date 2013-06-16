@@ -1,0 +1,278 @@
+<% content_for :head do %>
+<title>Place page title here</title>
+<% end %>
+
+<% content_for :foot do %><% end %>
+
+<%= partial "components/nav/topBar" %>
+
+<article>
+
+  <div class="row">
+    <div class="large-6 columns">
+      <p>Below you will find fully functioning components for use inside reactive projects.</p>
+      <p>Each heading links to the appropiate documentation available on the Zurb Foundation website</p>
+      <p>Information on the in-built responsive 'mobile first' grid can be found <a href="http://foundation.zurb.com/grid-example1.php">on their website</a> also.</p>
+
+    </div>
+    <div class="large-6 columns">
+      <img src="<%= lorem.image('400x240') %>" alt="lorem" />
+    </div>
+  </div>
+
+</article>
+
+<hr>
+
+<h2>Component Examples</h2>
+
+<h3><a href="http://foundation.zurb.com/docs/components/alert-boxes.html">Alert Boxes</a></h3>
+<!-- Alert Boxes -->
+<%= partial "components/common/alertBoxes" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/breadcrumbs.html">Bread Crumbs</a></h3>
+<!-- Breadcrumbs -->
+<%= partial "components/nav/breadCrumbs" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Alert</a></h3>
+<!-- Button Alert -->
+<%= partial "components/common/buttonAlert" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Bar</a></h3>
+<!-- Button Bar -->
+<%= partial "components/common/buttonBar" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Default</a></h3>
+<!-- Button Default -->
+<%= partial "components/common/buttonDefault" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Disabled</a></h3>
+<!-- Button Disabled -->
+<%= partial "components/common/buttonDisabled" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Dropdown</a></h3>
+<!-- Button Dropdown -->
+<%= partial "components/common/buttonDropdown" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/dropdown.html">Content Drop Down</a></h3>
+<%= partial "components/common/contentDropDown" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Group</a></h3>
+<!-- Button Group -->
+<%= partial "components/common/buttonGroup" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Large</a></h3>
+<!-- Button Large -->
+<%= partial "components/common/buttonLarge" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Radius</a></h3>
+<!-- Button Radius -->
+<%= partial "components/common/buttonRadius" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Secondary</a></h3>
+<!-- Button Secondary -->
+<%= partial "components/common/buttonSecondary" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/alert-boxes.html">Button Small</a></h3>
+<!-- Button Small -->
+<%= partial "components/common/buttonSmall" %>
+
+<hr>
+
+<!-- <h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Split</a></h3>
+
+<%= partial "components/common/buttonSplit" %>
+
+<hr>
+ -->
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Success</a></h3>
+<!-- Button Success -->
+<%= partial "components/common/buttonSuccess" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/buttons.html">Button Tiny</a></h3>
+<!-- Button Tiny -->
+<%= partial "components/common/buttonTiny" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/pagination.html">Pagination</a></h3>
+<!-- Pagination -->
+<%= partial "components/common/pagination" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/pagination.html">Centered Pagination</a></h3>
+<!-- Centered Pagination -->
+<%= partial "components/common/centeredPagination" %>
+
+<hr>
+
+<p>
+  Each for requires a class called ".form-correction" as this is a styling hook that allows us to not style based off "form" itelf which has issues when using .net and the wrapped form element for asp.net form. You may also need to change the form tag to be a div. ie. <code>&lt;div class="form-correction"&gt;</code> ... Using MVC you will not have this issue however
+</p>
+
+<h3><a href="http://foundation.zurb.com/docs/components/forms.html">Form</a></h3>
+<!-- Form -->
+<%= partial "components/common/form" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/custom-forms.html">Form Custom</a></h3>
+<!-- Form Custom -->
+<%= partial "components/common/formCustom" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/switch.html">Form Switch</a></h3>
+<!-- Form Switch -->
+<p>Switch does not work correctly in ie8</p>
+<%= partial "components/common/formSwitch" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/alert-boxes.html">Inline List</a></h3>
+<!-- Inline List -->
+<%= partial "components/common/inlineLists" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/alert-boxes.html">Labels</a></h3>
+<!-- Labels -->
+<%= partial "components/common/labels" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/magellan.html">Orbit</a></h3>
+<!-- Orbit -->
+<%= partial "components/common/orbit" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/magellan.html">Panel</a></h3>
+<!-- Panel -->
+<%= partial "components/common/panel" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/magellan.html">Pricing Table</a></h3>
+<!-- Pricing Table -->
+<%= partial "components/common/pricingTable" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/magellan.html">Progress Bar</a></h3>
+<!-- Progress Bar -->
+<%= partial "components/common/progressBar" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/reveal.html">Reveal</a></h3>
+<!-- Reveal -->
+<%= partial "components/common/reveal" %>
+<a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
+
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/section.html">Section Accordion</a></h3>
+<!-- Section Accordion -->
+<%= partial "components/common/sectionAccordion" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/section.html">Section Horozontal Nav</a></h3>
+<p>Note in IE8 these work in desktop version but not when reduced in the browser to device size. This isnt an issue though as there is no IE8 devices.</p>
+<!-- Section Horozontal Nav -->
+<%= partial "components/nav/sectionHorizontalNav" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/section.html">Section Tabs</a></h3>
+<p>Note in IE8 these work in desktop version but not when reduced in the browser to device size. This isnt an issue though as there is no IE8 devices.</p>
+<!-- Section Tabs -->
+<%= partial "components/common/sectionTabs" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/section.html">Section Vertical Nav</a></h3>
+<p>Note in IE8 these work in desktop version but not when reduced in the browser to device size. This isnt an issue though as there is no IE8 devices.</p>
+<!-- Section Vertical Nav -->
+<%= partial "components/nav/sectionVerticalNav" %>
+
+<hr>
+
+<h3><a href="http://foundation.zurb.com/docs/components/side-nav.html">Side Nav</a></h3>
+<p>Note in IE8 these work in desktop version but not when reduced in the browser to device size. This isnt an issue though as there is no IE8 devices.</p>
+ <!-- Side Nav -->
+ <%= partial "components/nav/sideNav" %>
+
+ <hr>
+
+ <h3><a href="http://foundation.zurb.com/docs/components/sub-nav.html">Sub Nav</a></h3>
+ <!-- Sub Nav -->
+ <%= partial "components/nav/subNav" %>
+
+ <hr>
+
+ <h3><a href="http://foundation.zurb.com/docs/components/tables.html">Table Default</a></h3>
+ <!-- Table Default -->
+ <%= partial "components/common/tableDefault" %>
+
+ <hr>
+
+ <h3><a href="http://foundation.zurb.com/docs/components/thumbnails.html">Thumb Nail</a></h3>
+ <!-- Thumbnail -->
+ <%= partial "components/common/thumbNail" %>
+
+ <hr>
+
+ <h3><a href="http://foundation.zurb.com/docs/components/tooltips.html">Tool Tip</a></h3>
+ <!-- Tooltips -->
+ <%= partial "components/common/toolTip" %>
+
+ <hr>
+
+ <h3><a href="http://foundation.zurb.com/docs/components/clearing.html">Clearing</a></h3>
+ 
+ <%= partial "components/common/clearing" %>
+
+ <hr>
+
+ <% content_for :rightColumn do %>
+
+ <h4>Categories</h4>
+ <%= partial "components/nav/sideNav" %>
+
+ <div class="panel">
+  <h5>Featured</h5>
+  <p>We love to make great digital work.</p>
+  <a href="http://www.reactive.com">Read More &rarr;</a>
+</div>
+
+<% end %>
