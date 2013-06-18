@@ -5,12 +5,6 @@ Fluid has been created by <a href="http://www.reactive.com/">Reactive</a> and is
 
 Fluid like Foundation is mobile-first however Fluid extends browser support to include IE8 and graded support for IE7 by providing non mobile-first styles to thoes browsers that dont support media queries.
 
-Fluid also contains alternative components for rapid development of items such as 'Listings' a simplifed 'Homepage' and a 'Template Listing' to add with development.
-
-We have also included all of the available Foundation modules as middleman 'partials' to further increase the speed of prototyping.
-
-We have also created Fluid snippets to further help with development. These snippets are available in both as gists as well as downloadble and locally insatllable files for the excellent Sublime text editor.
-
 Files: https://github.com/schalmersdev/Fluid.git
 
 
@@ -38,16 +32,27 @@ SASS: http://sass-lang.com/
 
 Compass: http://compass-style.org/
 <code>gem install compass</code>
- 
+
+
+Partials
+========
+Fluid also contains alternative layouts for rapid development of items such as 'Listings' a simplifed 'Homepage' and a 'Template Listing' to add with development.
+
+We have also included all of the available Foundation modules as middleman 'partials' to further increase the speed of prototyping.
+
+These partials can be found <code>/source/components/</code>.
+
 
 Snippets
 ========
+Fluid includes snippets to aid with development. These snippets are available in both as gists as well as downloadble and locally insatllable files for the excellent Sublime text editor.
 
 * [Sublime Text2 Bundle](https://github.com/schalmersdev/Sublime-Foundation-Snippets/).
 Place the snippets in your Sublime Snippets folder ie. /Packages/User.
 You can then access these snippets using the first 3 letters of the item you wish to use pre-pended with the letter 'z'. Example to use a button you should use: zbut <code>tab</code> to activate the button snippet.
 
 * Alternatively you can access individual non-editor specific snippets here: [Github Gists](https://gist.github.com/schalmersdev).
+
 
 MIT Open Source License
 =======================
