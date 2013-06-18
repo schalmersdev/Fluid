@@ -22,7 +22,6 @@ Repo Contents
 =============
 
 * Base Source and Compilation Files for SCSS
-* Docs
 * README
  
 
