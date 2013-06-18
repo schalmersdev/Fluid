@@ -13,11 +13,9 @@ We have also created Fluid snippets to further help with development. These snip
 Further information on Foundation
 =================================
 
-Homepage:      http://foundation.zurb.com<br />
-Documentation: http://foundation.zurb.com/docs<br />
-Download:      http://foundation.zurb.com/download.php
+Documentation: http://foundation.zurb.com/docs
 
-Foundation is MIT-licensed and absolutely free to use. Foundation wouldn't be possible without the support of the entire ZURB team, our friends and colleagues who gave feedback, and some luminaries who did some heavy lifting that we took advantage of (thanks guys).
+Foundation is MIT-licensed and absolutely free to use.
 
 
 Repo Contents
@@ -33,7 +31,7 @@ Editors
 
 * [Sublime Text2 Bundle](https://github.com/schalmersdev/Sublime-Foundation-Snippets/).
 Place the snippets in your Sublime Snippets folder ie. /Packages/User.
-You can then access these snippets using the first 3 letters of the item you wish to use pre-pended with the letter 'z'. Example to use a button you should use: zbut + tab
+You can then access these snippets using the first 3 letters of the item you wish to use pre-pended with the letter 'z'. Example to use a button you should use: zbut + <code>tab</code>
 
 MIT Open Source License
 =======================
