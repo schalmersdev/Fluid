@@ -1,7 +1,7 @@
 Welcome to Fluid
 ================
 
-Fluid is based on Foundation a responsive front-end framework. You can quickly prototype and build sites or apps that work on any kind of device with Foundation, which includes layout constructs (like a fully responsive grid), elements and best practices.
+Fluid is based on Foundation a responsive front-end framework. You can quickly prototype and build sites or apps that work on any kind of device with Fluid, which includes layout constructs (like a fully responsive grid), elements and best practices.
 
 Fluid has extended browser support to include IE8 and graded support for IE7.
 
