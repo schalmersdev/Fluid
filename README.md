@@ -28,7 +28,8 @@ Repo Contents
 
 Editors
 
-* [Textmate/Sublime Text2 Bundle](https://github.com/liamr/Zurb-Foundation-Textmate-Bundle) by Liam R, @liamr
+* [Sublime Text2 Bundle](https://github.com/schalmersdev/Sublime-Foundation-Snippets/) by S Chalmers
+* Place the snippets in your Sublime Snippets folder ie. /Packages/User
 
 Templates
 
