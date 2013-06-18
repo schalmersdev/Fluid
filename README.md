@@ -29,7 +29,7 @@ Repo Contents
 Dependancies
 ============
 Middleman: http://middlemanapp.com/
-<code>$ gem install middleman</code>
+<code>gem install middleman</code>
 
 SASS: http://sass-lang.com/
 <code>gem install sass</code>
