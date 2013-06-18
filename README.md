@@ -3,9 +3,11 @@ Welcome to Fluid
 
 Fluid has been created by <a href="http://www.reactive.com/">Reactive</a> and is a branched version of <a href="http://foundation.zurb.com/docs">Foundation</a> a responsive front-end framework. You can quickly prototype and build sites or apps that work on any kind of device with Fluid, which includes layout constructs (like a fully responsive grid), elements and best practices.
 
-While Fluid like Foundation is mobile-first however Fluid extends browser support to include IE8 and graded support for IE7 by providing non mobile-first styles to thoes browsers that dont support media queries.
+Fluid like Foundation is mobile-first however Fluid extends browser support to include IE8 and graded support for IE7 by providing non mobile-first styles to thoes browsers that dont support media queries.
 
-Fluid also contains alternative components for rapid devlopment of items such as 'Listings' etc.
+Fluid also contains alternative components for rapid development of items such as 'Listings' a simplifed 'Homepage' and a 'Template Listing' to add with development.
+
+We have also included all of the available Foundation modules as middleman 'partials' to further increase the speed of prototyping.
 
 We have also created Fluid snippets to further help with development. These snippets are available in both as gists as well as downloadble and locally insatllable files for the excellent Sublime text editor.
 
