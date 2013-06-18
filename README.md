@@ -31,10 +31,9 @@ Repo Contents
 Editors
 =======
 
-* [Sublime Text2 Bundle](https://github.com/schalmersdev/Sublime-Foundation-Snippets/) by S Chalmers
-Place the snippets in your Sublime Snippets folder ie. /Packages/User
-You can then access these snippets using the first 3 letters of the item you wish to use pr
-epended with the letter 'z'. Example to use a button you should use: zbut + tab
+* [Sublime Text2 Bundle](https://github.com/schalmersdev/Sublime-Foundation-Snippets/).
+Place the snippets in your Sublime Snippets folder ie. /Packages/User.
+You can then access these snippets using the first 3 letters of the item you wish to use pre-pended with the letter 'z'. Example to use a button you should use: zbut + tab
 
 MIT Open Source License
 =======================
