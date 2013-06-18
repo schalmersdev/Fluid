@@ -7,6 +7,8 @@ Fluid has extended browser support to include IE8 and graded support for IE7 by 
 
 Fluid also contains alternative components for rapid devlopment of items such as 'Listings' etc.
 
+We have also created Fluid snippets to further help with development. These snippets are available in both as gists as well as downloadble and locally insatllable files for the excellent Sublime text editor.
+
 Further information on Foundation
 =================================
 
