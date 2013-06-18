@@ -38,12 +38,16 @@ Compass: http://compass-style.org/
 <code>gem install compass</code>
  
 
-Editors
-=======
+Snippets
+========
 
 * [Sublime Text2 Bundle](https://github.com/schalmersdev/Sublime-Foundation-Snippets/).
 Place the snippets in your Sublime Snippets folder ie. /Packages/User.
 You can then access these snippets using the first 3 letters of the item you wish to use pre-pended with the letter 'z'. Example to use a button you should use: zbut <code>tab</code> to activate the button snippet.
+
+Alternatively you can access individual non-editor specific snippets here:
+
+* [Github Gists](https://gist.github.com/schalmersdev).
 
 MIT Open Source License
 =======================
