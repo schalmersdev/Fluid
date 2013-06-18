@@ -9,6 +9,7 @@ Fluid also contains alternative components for rapid devlopment of items such as
 
 We have also created Fluid snippets to further help with development. These snippets are available in both as gists as well as downloadble and locally insatllable files for the excellent Sublime text editor.
 
+
 Further information on Foundation
 =================================
 
@@ -17,6 +18,7 @@ Documentation: http://foundation.zurb.com/docs<br />
 Download:      http://foundation.zurb.com/download.php
 
 Foundation is MIT-licensed and absolutely free to use. Foundation wouldn't be possible without the support of the entire ZURB team, our friends and colleagues who gave feedback, and some luminaries who did some heavy lifting that we took advantage of (thanks guys).
+
 
 Repo Contents
 =============
@@ -27,19 +29,11 @@ Repo Contents
  
 
 Editors
+=======
 
 * [Sublime Text2 Bundle](https://github.com/schalmersdev/Sublime-Foundation-Snippets/) by S Chalmers
 * Place the snippets in your Sublime Snippets folder ie. /Packages/User
 
-Templates
-
-* [Desktop, Tablet and Phone Grid PSD Templates](http://foundation.zurb.com/files/foundation-psd-templates.zip ) by Bruce Abel at Portfolio Creative Services Group
-
-Grid displayer
-
-* [Grid displayer bookmarklet](http://alefeuvre.github.com/foundation-grid-displayer/) by [Antoine Lefeuvre](http://twitter.com/jiraisurfer)
-* [Responsive Design Bookmarklet](http://responsive.victorcoulon.fr/) by [Victor Coulon](https://twitter.com/_victa)
-* [Vertical Rhythm Grid Bookmarklet](http://gridwax.gs/) by [Kevin Altman](http://twitter.com/itg)
 
 MIT Open Source License
 =======================
