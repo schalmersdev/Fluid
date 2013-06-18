@@ -9,7 +9,7 @@ Fluid also contains alternative components for rapid devlopment of items such as
 
 We have also created Fluid snippets to further help with development. These snippets are available in both as gists as well as downloadble and locally insatllable files for the excellent Sublime text editor.
 
-Homepage: http://reactive.com
+Files: https://github.com/schalmersdev/Fluid.git
 
 
 Further information on Foundation
