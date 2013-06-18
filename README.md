@@ -31,7 +31,7 @@ Editors
 
 * [Sublime Text2 Bundle](https://github.com/schalmersdev/Sublime-Foundation-Snippets/).
 Place the snippets in your Sublime Snippets folder ie. /Packages/User.
-You can then access these snippets using the first 3 letters of the item you wish to use pre-pended with the letter 'z'. Example to use a button you should use: zbut + <code>tab</code>
+You can then access these snippets using the first 3 letters of the item you wish to use pre-pended with the letter 'z'. Example to use a button you should use: zbut <code>tab</code> to activate the button snippet.
 
 MIT Open Source License
 =======================
