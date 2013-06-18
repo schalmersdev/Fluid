@@ -3,7 +3,7 @@ Welcome to Fluid
 
 Fluid is based on Foundation a responsive front-end framework. You can quickly prototype and build sites or apps that work on any kind of device with Fluid, which includes layout constructs (like a fully responsive grid), elements and best practices.
 
-Fluid has extended browser support to include IE8 and graded support for IE7 by providing non mobile-first styles to thoes browsers that dont support media queries. .
+Fluid has extended browser support to include IE8 and graded support for IE7 by providing non mobile-first styles to thoes browsers that dont support media queries.
 
 Fluid also contains alternative components for rapid devlopment of items such as 'Listings' etc.
 
@@ -45,9 +45,7 @@ Snippets
 Place the snippets in your Sublime Snippets folder ie. /Packages/User.
 You can then access these snippets using the first 3 letters of the item you wish to use pre-pended with the letter 'z'. Example to use a button you should use: zbut <code>tab</code> to activate the button snippet.
 
-Alternatively you can access individual non-editor specific snippets here:
-
-* [Github Gists](https://gist.github.com/schalmersdev).
+* Alternatively you can access individual non-editor specific snippets here: [Github Gists](https://gist.github.com/schalmersdev).
 
 MIT Open Source License
 =======================
