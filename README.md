@@ -5,7 +5,14 @@ Fluid has been created by <a href="http://www.reactive.com/">Reactive</a> and is
 
 Fluid like Foundation is mobile-first however Fluid extends browser support to include IE8 and graded support for IE7 by providing non mobile-first styles to thoes browsers that dont support media queries.
 
-Files: https://github.com/schalmersdev/Fluid.git
+
+Quick start
+===========
+Three quick start options are available:
+
+Download the latest release.
+Checkout a copy using Subversion: https://github.com/schalmersdev/bootstrap-sass
+Clone the repo: git clone git://github.com/schalmersdev/Fluid.git
 
 
 Further information on Foundation
