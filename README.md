@@ -6,6 +6,18 @@ Fluid has been created by <a href="http://www.reactive.com/">Reactive</a> and is
 Fluid like Foundation is mobile-first however Fluid extends browser support to include IE8 and graded support for IE7 by providing non mobile-first styles to thoes browsers that dont support media queries.
 
 
+Dependancies
+============
+Middleman: http://middlemanapp.com/
+<code>gem install middleman</code>
+
+SASS: http://sass-lang.com/
+<code>gem install sass</code>
+
+Compass: http://compass-style.org/
+<code>gem install compass</code>
+
+
 Quick start
 ===========
 Three quick start options are available:
@@ -28,17 +40,6 @@ Repo Contents
 
 * Base Source and Compilation Files for SCSS
 * README
-
-Dependancies
-============
-Middleman: http://middlemanapp.com/
-<code>gem install middleman</code>
-
-SASS: http://sass-lang.com/
-<code>gem install sass</code>
-
-Compass: http://compass-style.org/
-<code>gem install compass</code>
 
 
 Partials
