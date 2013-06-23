@@ -23,7 +23,9 @@ Quick start
 Three quick start options are available:
 
 Download the latest release.
+
 Checkout a copy using Subversion: https://github.com/schalmersdev/bootstrap-sass
+
 Clone the repo: git clone git://github.com/schalmersdev/Fluid.git
 
 
