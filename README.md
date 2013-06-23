@@ -29,14 +29,6 @@ Checkout a copy using Subversion: https://github.com/schalmersdev/bootstrap-sass
 Clone the repo: git clone git://github.com/schalmersdev/Fluid.git
 
 
-Further information on Foundation
-=================================
-
-Documentation: http://foundation.zurb.com/docs
-
-Foundation is MIT-licensed and absolutely free to use.
-
-
 Repo Contents
 =============
 
@@ -62,6 +54,19 @@ Place the snippets in your Sublime Snippets folder ie. /Packages/User.
 You can then access these snippets using the first 3 letters of the item you wish to use pre-pended with the letter 'z'. Example to use a button you should use: zbut <code>tab</code> to activate the button snippet.
 
 * Alternatively you can access individual non-editor specific snippets here: [Github Gists](https://gist.github.com/schalmersdev).
+
+Further information on Fluid
+============================
+
+Wiki: https://github.com/schalmersdev/Fluid/wiki/_pages
+
+
+Further information on Foundation
+=================================
+
+Documentation: http://foundation.zurb.com/docs
+
+Foundation is MIT-licensed and absolutely free to use.
 
 
 MIT Open Source License
