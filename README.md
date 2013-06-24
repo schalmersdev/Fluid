@@ -39,13 +39,13 @@ Use the Commandline
 Alternatively if you know your way aropund the Command Line you can do it using that. 
 In the example below my svn prjects folder is called 'SVNProjects' and im making a new folder called 'MyNewFolderName'
 
-Step 1:) cd C:\SVNProjects
+Step 1:) <code>cd C:\SVNProjects</code>
 
-Step 2:) C:\SVNProjects>mkdir MyNewFolderName
+Step 2:) <code>C:\SVNProjects>mkdir MyNewFolderName</code>
 
-Step 3:) C:\SVNProjects>cd MyNewFolderName
+Step 3:) <code>C:\SVNProjects>cd MyNewFolderName</code>
 
-Step 4:) C:\SVNProjects\MyNewFolderName>svn export http://svn.reactive.com:8080/svn/MelbourneFED/trunk/Boilerplates/ZURBBoilerplate/FLUID
+Step 4:) <code>C:\SVNProjects\MyNewFolderName>svn export http://svn.reactive.com:8080/svn/MelbourneFED/trunk/Boilerplates/ZURBBoilerplate/FLUID</code>
 
 
 
