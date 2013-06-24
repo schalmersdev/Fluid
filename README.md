@@ -28,7 +28,9 @@ Goto: XXXXXX and download a zipped copy to your folder
 Checkout a copy using Subversion GUI:
 ------------------------------------
 Step 1:) Create new folder where you wish to start the new project
+
 Step 2:) Right click and under 'TortoiseSVN' choose 'export' and add 'http://svn.reactive.com:8080/svn/MelbourneFED/trunk/Boilerplates/ZURBBoilerplate/FLUID' into the URL of the repository
+
 Step 3:) Click OK and the repo will be exported to the folder you just created.
 
 
@@ -38,8 +40,11 @@ Alternatively if you know your way aropund the Command Line you can do it using 
 In the example below my svn prjects folder is called 'SVNProjects' and im making a new folder called 'MyNewFolderName'
 
 Step 1:) cd C:\SVNProjects
+
 Step 2:) C:\SVNProjects>mkdir MyNewFolderName
+
 Step 3:) C:\SVNProjects>cd MyNewFolderName
+
 Step 4:) C:\SVNProjects\MyNewFolderName>svn export http://svn.reactive.com:8080/svn/MelbourneFED/trunk/Boilerplates/ZURBBoilerplate/FLUID
 
 
