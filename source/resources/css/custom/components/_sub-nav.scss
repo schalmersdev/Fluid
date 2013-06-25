@@ -1,1 +1,29 @@
-// Add custom styles below
+/* ==========================================================================
+   SUB NAV
+   ========================================================================== */
+/* 
+
+FURTHER INFO
+------------
+http://foundation.zurb.com/docs/components/sub-nav.html
+
+To create your own version use the SASS mixin
+
+CREATE YOUR OWN
+---------------
+
+Using the default styles
+------------------------
+.your-class-name { @include sub-nav; }
+
+Using the available options
+---------------------------
+.your-class-name { @include sub-nav($font-color, $font-size, $active-bg); }
+
+
+OR TO EXTEND THE CLASS USE:
+---------------------------
+
+.sub-nav{...}
+
+*/
