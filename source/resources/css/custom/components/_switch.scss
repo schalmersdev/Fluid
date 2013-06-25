@@ -1,1 +1,31 @@
-// Add custom styles below
+/* ==========================================================================
+   SWITCH
+   ========================================================================== */
+/* 
+
+FURTHER INFO
+------------
+http://foundation.zurb.com/docs/components/switch.html
+
+To create your own version use the SASS mixin
+
+CREATE YOUR OWN
+---------------
+
+Using the default styles
+------------------------
+.your-class-name { @include switch; }
+
+Using the available options
+---------------------------
+.your-class-name {
+  @include switch($transition-speed, $transition-ease, $height, $font-size, $line-height, $paddle-bg, $positive-color, $negative-color, $radius, $base-style);
+}
+
+OR TO EXTEND THE CLASS USE:
+---------------------------
+
+.switch-custom{...}
+
+*/
+
